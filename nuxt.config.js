@@ -6,9 +6,6 @@ export default {
   router: {
     base: '/NathanMGalante.github.io/',
   },
-  dir: {
-    pages: 'docs',
-  },
   head: {
     titleTemplate: '%s - NathanMGalante',
     title: 'NathanMGalante',
