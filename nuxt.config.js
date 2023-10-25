@@ -4,7 +4,10 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   router: {
-    base: '/NathanMGalante.github.io/pages/',
+    base: '/NathanMGalante.github.io/',
+  },
+  dir: {
+    pages: 'docs'
   },
   head: {
     titleTemplate: '%s - NathanMGalante',
