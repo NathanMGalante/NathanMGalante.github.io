@@ -7,7 +7,7 @@ export default {
     base: '/NathanMGalante.github.io/',
   },
   dir: {
-    pages: 'docs'
+    pages: 'docs',
   },
   head: {
     titleTemplate: '%s - NathanMGalante',
