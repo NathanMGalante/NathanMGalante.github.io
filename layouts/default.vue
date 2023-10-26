@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <BackgroundImage />
     <v-app-bar fixed app>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
     </v-app-bar>
@@ -16,9 +17,11 @@
 
 <script>
 import { getYear } from '@/utils/date-util'
+import BackgroundImage from '@/components/BackgroundImage'
 
 export default {
   name: 'DefaultLayout',
+  components: { BackgroundImage },
   data: () => ({
     title: 'Nathan Moreno Galante',
     currentYear: getYear()

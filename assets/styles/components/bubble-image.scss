@@ -1,7 +1,7 @@
 .bubble-image {
   -webkit-animation: bubbleBorderAnimation 8s ease-in-out infinite;
   animation: bubbleBorderAnimation 8s ease-in-out infinite;
-  background-image: url("@/assets/images/profile.jpg");
+  background-image: $profileImage;
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #2d2e32;
