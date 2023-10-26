@@ -1,5 +1,7 @@
 <template>
-  <div class='background-image'/>
+  <section>
+    <div class='background-image'/>
+  </section>
 </template>
 
 <script>

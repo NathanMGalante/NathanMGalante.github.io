@@ -1,6 +1,6 @@
 <template>
-  <v-row>
-    <v-col class='text-center'>
+  <v-row style='height: calc(100vh - 100px)' class='py-12'>
+    <v-col class='text-center position-relative'>
       <h1>Nathan Moreno Galante</h1>
       <v-row no-gutters justify='center' style='height: 26px'>
         <vue-typed-js
@@ -14,6 +14,7 @@
           <span class='typing' style='font-size: 26px' />
         </vue-typed-js>
       </v-row>
+      <BubbleImage class='mt-12 pt-12' />
     </v-col>
   </v-row>
 </template>
@@ -22,7 +23,7 @@
 import Vue from 'vue'
 import VueTypedJs from 'vue-typed-js'
 
-import { DURATION_3_SECONDS, DURATION_50_MILLIS } from '~/utils/time-util'
+import { DURATION_3_SECONDS, DURATION_50_MILLIS } from '@/utils/time-util'
 
 Vue.use(VueTypedJs)
 export default {

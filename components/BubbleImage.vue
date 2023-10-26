@@ -1,5 +1,7 @@
 <template>
-  <div class='bubble-image'></div>
+  <section>
+    <div class='bubble-image'></div>
+  </section>
 </template>
 
 <script>

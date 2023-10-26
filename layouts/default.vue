@@ -17,11 +17,9 @@
 
 <script>
 import { getYear } from '@/utils/date-util'
-import BackgroundImage from '@/components/BackgroundImage'
 
 export default {
   name: 'DefaultLayout',
-  components: { BackgroundImage },
   data: () => ({
     title: 'Nathan Moreno Galante',
     currentYear: getYear()
