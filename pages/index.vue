@@ -4,12 +4,16 @@
       <v-card class='text-center'>
         <h3>Em desenvolvimento...</h3>
       </v-card>
+      <BubbleImage/>
     </v-col>
   </v-row>
 </template>
 
 <script>
+import BubbleImage from '@/components/BubbleImage'
+
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  components: { BubbleImage }
 }
 </script>

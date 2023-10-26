@@ -1,0 +1,28 @@
+.bubble-image {
+  -webkit-animation: bubbleBorderAnimation 8s ease-in-out infinite;
+  animation: bubbleBorderAnimation 8s ease-in-out infinite;
+  background-image: url("@/assets/images/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  height: 20rem;
+  margin: 60px auto 0;
+  position: relative;
+  transition: all 1s ease-in-out;
+  width: 20rem;
+}
+
+@keyframes bubbleBorderAnimation {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+
