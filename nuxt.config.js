@@ -52,6 +52,12 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    treeShake: true,
+    defaultAssets: {
+      font: {
+        family: 'Raleway'
+      }
+    },
     customVariables: ['@/assets/styles/variables.scss'],
     theme: {
       dark: true,
