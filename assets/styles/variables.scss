@@ -3,6 +3,13 @@
 // The variables you want to modify
 // $font-size-root: 20px;
 
+//dimensions
+$headerHeight: 64px;
+$footerHeight: 36px;
+$pageHeight: calc(100vh - #{$headerHeight + $footerHeight});
+
+$size-mobile: 750px;
+
 //Images
 $profileImage: url("~/assets/images/profile.jpg");
 $backgroundImage: url("~/assets/images/background.jpeg");

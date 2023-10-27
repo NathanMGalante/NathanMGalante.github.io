@@ -1,7 +1,8 @@
 <template>
   <v-row>
-    <v-col>
+    <v-col class='home'>
       <Wellcome />
+      <About/>
     </v-col>
   </v-row>
 </template>

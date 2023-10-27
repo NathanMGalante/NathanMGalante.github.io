@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col class='wellcome text-center'>
-      <h1>Nathan Moreno Galante</h1>
+      <h1 class='mt-12'>Nathan Moreno Galante</h1>
       <v-row no-gutters justify='center' style='height: 26px'>
         <vue-typed-js
           :backDelay='backDelay'
