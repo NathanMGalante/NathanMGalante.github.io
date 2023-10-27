@@ -10,6 +10,7 @@
     </v-main>
     <v-footer app>
       <span>&copy; {{ currentYear }}</span>
+      <v-row no-gutters justify='center'>&nbsp;Em Desenvolvimento...</v-row>
     </v-footer>
   </v-app>
 </template>

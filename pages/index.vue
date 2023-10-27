@@ -1,8 +1,11 @@
 <template>
   <v-row>
-    <v-col class='home'>
+    <v-col class='home white'>
       <Wellcome />
-      <About/>
+      <About />
+      <Skills />
+      <Education />
+      <Contact />
     </v-col>
   </v-row>
 </template>

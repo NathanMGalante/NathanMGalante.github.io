@@ -1,6 +1,6 @@
 <template>
-  <v-row class='white black--text' justify='center'>
-    <v-col cols='8' class='py-6'>
+  <v-row class='black--text' justify='center'>
+    <v-col cols='8' class='py-3'>
       <h1 class='dark-blue--text'>{{ title }}</h1>
       <slot />
     </v-col>
