@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import Wellcome from '@/components/Wellcome'
 
 export default {
-  name: 'HomePage',
-  components: { Wellcome }
+  name: 'HomePage'
 }
 </script>
