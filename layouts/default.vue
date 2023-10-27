@@ -1,11 +1,10 @@
 <template>
   <v-app>
-    <BackgroundImage />
     <v-app-bar fixed app>
       <v-toolbar-title>{{ title }}</v-toolbar-title>
     </v-app-bar>
     <v-main>
-      <v-container>
+      <v-container class='page' fluid>
         <Nuxt />
       </v-container>
     </v-main>

@@ -1,6 +1,6 @@
 <template>
-  <v-row style='height: calc(100vh - 100px)' class='py-12'>
-    <v-col class='text-center position-relative'>
+  <v-row>
+    <v-col class='wellcome text-center'>
       <h1>Nathan Moreno Galante</h1>
       <v-row no-gutters justify='center' style='height: 26px'>
         <vue-typed-js
